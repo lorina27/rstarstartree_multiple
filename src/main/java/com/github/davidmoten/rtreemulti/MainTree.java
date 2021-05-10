@@ -6,9 +6,9 @@ import java.util.List;
 public class MainTree {
 
     //These are only the dimensions that the tree will be built upon
-    private static final List<Entry<Object, Point>> dimension_entries = LatLongTime2.entriesList();
+    private static final List<Entry<Object, Point>> dimension_entries = MainTreeData.entriesList();
     //These are all the attributes in the data
-    private static final List<Entry<Object, Point>> attribute_entries = LatLongTime2.entriesList2();
+    private static final List<Entry<Object, Point>> attribute_entries = MainTreeData.entriesList2();
 
     //total number of data points
     private static int size=10000;
