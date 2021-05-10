@@ -20,6 +20,6 @@ private static final RTree<Object, Point> tree = RTree.maxChildren(4).minChildre
  double dimension_n = Double.parseDouble(items[n]);   where n=dimension counter
  
  Repeat the same steps for the all_entries() method. This method is not used to build the tree, it creates a list of entries with the friction attribute added (last attribute in the file). 
- BUG: Currently the tree is not saving the friction count/linear sum/square sum on each node, it is calculating all the informatin in the end when the tree is already built. In the future add the friction count/linear sum/square sum in the node while the tree is being built and not in the end of the process. 
+ BUG: Currently the tree is not saving the friction count/linear sum/square sum on each node, it is calculating all the information in the end when the tree is already built. In the future add the friction count/linear sum/square sum in the node while the tree is being built and not in the end of the process. 
  
-4. RUN Maintree.java. The output is saved a .csv file on IntelliJ (IntelliJ->Run->Configurations->Logs->Save console output to .csv file). In the future add the output directly to the database similarly to the temporal granulation code. 
+4. RUN Maintree.java. The output is saved as a .csv file on IntelliJ (IntelliJ->Run->Configurations->Logs->Save console output to .csv file). In the future add the output directly to the database similarly to the temporal granulation code. 
